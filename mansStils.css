@@ -1,10 +1,7 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Mar 3, 2021, 9:28:54 AM
-    Author     : Sebas
-*/
+body {
+    background-image: url("https://media.istockphoto.com/vectors/small-cottages-located-on-scenic-winter-with-dim-atmosphere-vector-id842126698?k=6&m=842126698&s=612x612&w=0&h=dMmmiZgJFwEyX6FnWDCJ_WCSW1GD-N8ozGHF2l63Jtc=")
+}
+body {
+    color:blueviolet
+}
 
