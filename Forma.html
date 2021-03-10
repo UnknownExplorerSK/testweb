@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forma.html</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Formas un ievadlauku piemērs</h1>
+        <form>
+            <p> Šodienas datums <input name="datums"></p>
+            <p>Ja gribi uzzināt šodienas datumu, spied pogu DATUMS
+                <input onclick="datums.value=new Date();" name="poga" value="DATUMS" type="button">
+            </p>
+            <p>Ja gribi izdzēst datuma lodziņa saturu, spied pogu reset
+                <input value="RESET" type="reset">
+            </p>
+        </form>
+        
+        <form>
+            <div>
+                1.skaitlis
+                <input type="text" name="sk1">
+            </div>
+            <div>
+                <input value="X" name="reiz" onClick="rez.value=sk1.value*sk2.value" type="button">
+            </div> 
+            <div>
+                <input value="/" name="dal" onClick="rez.value=sk1.value/sk2.value" type="button">
+            </div> 
+            <div>
+                <input value="+" name="plu" onClick="rez.value=sk1.value+sk2.value" type="button">
+            </div> 
+            <div>
+                <input value="-" name="minu" onClick="rez.value=sk1.value-sk2.value" type="button">
+            </div> 
+            <div>
+                2. skaitlis &nbsp; <input name="sk2">
+            </div>
+            <hr style="width: 100%; height: 2px;">
+            <div>rezultāts <input name="rez"></div>
+            <div> Ja vēlies izdzēst rezultātu, tad spied RESET
+                <input value="RESET" type="reset">
+            </div>
+        </form>
+    </body>
+</html>
