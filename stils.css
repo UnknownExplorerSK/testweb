@@ -1,9 +1,14 @@
-body {
-  background-color: powderblue;
+*{
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-kerning: auto;
 }
-h1 {
-  color: blue;
+html{
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
 }
-p {
-  color: red;
+Body{
+    margin: 0;
 }
